@@ -4,8 +4,21 @@ body{
   font-family: verdana, sans-serif;
 }
 h1{
-  margin-top: 0;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
   font-family: 'Sacramento', serif;
+  font-size: 5.625rem;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 2em;
 }
 p{
   font-family: 'Merriweather', serif;
@@ -13,21 +26,39 @@ p{
 .top-container {
   background-color: #a8d8ea;
   padding-top: 100px;
+  position: relative;
 }
 .middle-container{
-}
-.bottom-container{
+  position: relative;
 }
 .pro{
-  text-decoration: underline;
+  text-decoration: line-through;
 }
 .bottom-cloud{
   position: absolute;
-  left: 450px;
-  bottom: 500px;
+  left: 25%;
+  bottom: 40%;
 }
 .top-cloud{
   position: absolute;
   right: 450px;
   top: 50px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.router-images{
+  border-radius: 50%;
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+.program-images{
+  border-radius: 50%;
+  margin-right: 30px;
+  width: 25%;
+  float: right;
 }
